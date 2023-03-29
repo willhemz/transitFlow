@@ -1,7 +1,12 @@
-import React, { ReactElement } from 'react'
+import { ReactElement } from 'react'
+import { Navmenu } from './component'
 
 const App = (): ReactElement => {
-  return <div></div>
+  return (
+    <>
+      <Navmenu />
+    </>
+  )
 }
 
 export default App
