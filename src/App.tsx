@@ -1,10 +1,13 @@
 import { ReactElement } from 'react'
-import { Navmenu } from './component'
+import { Intro, Navmenu } from './component'
 
 const App = (): ReactElement => {
   return (
     <>
       <Navmenu />
+      <main className='w-full'>
+        <Intro />
+      </main>
     </>
   )
 }

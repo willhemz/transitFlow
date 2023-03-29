@@ -29,6 +29,8 @@ export const data: ImgType = imgList.reduce(
   { ...ImgObj }
 )
 
+export const { cargo } = data
+
 export const links: LinkArr = [
   { title: 'Home', url: '/' },
   { title: 'About', url: '/' },

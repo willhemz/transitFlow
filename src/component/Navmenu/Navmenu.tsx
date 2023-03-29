@@ -4,7 +4,7 @@ import { AiOutlineDown } from 'react-icons/ai'
 
 const Navmenu = (): ReactElement => {
   const [value, setValue] = useState<string>('Home')
-  const { Logo, cargo, IconClock, IconMail, IconPhone }: ImgType = data
+  const { Logo, IconClock, IconMail, IconPhone }: ImgType = data
 
   const first: ReactNode = (
     <section className='w-full h-[160px] grid place-items-center bg-deepblu'>
@@ -26,7 +26,7 @@ const Navmenu = (): ReactElement => {
             </span>
           </section>
           <section className='w-[184px] h-full flex justify-between items-center'>
-            <img src={IconMail} alt='' />
+            <img src={IconPhone} alt='' />
             <span className='font-krub font-[500] text-sm leading-[19px] text-white w-[107px] h-[57px'>
               Email contact@logistics.com
             </span>
